@@ -1,0 +1,123 @@
+body {
+    -webkit-touch-callout: none ;
+    -webkit-text-size-adjust: none ; -ms-text-size-adjust: none ;
+    -webkit-user-select: none ; -moz-user-select: none ; -ms-user-select: none ; user-select: none ;
+    -webkit-highlight: none ;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) ;
+    -webkit-tap-highlight-color: transparent ;      /* For some Androids */
+}
+html {
+    -ms-touch-action: pan-x ;
+}
+body {
+    -ms-touch-action: pan-y ;
+    -ms-content-zooming: none ;
+}
+
+input, textarea  {
+    -webkit-user-select: text ; -moz-user-select: text ; -ms-user-select: text ; user-select: text ;
+}
+
+body {
+    background-color:#3d4543;
+}
+.box
+{
+  background-color:#3d4543;
+  height:600px;
+  width:303px;
+  position:relative;
+  top:-9px;
+  left:-8%;
+} 
+.display
+{
+  background-color:#222;
+  width:250px;
+  position:relative;
+  left:60px;
+  top:50px;
+  height:55px;
+}
+.display input
+{
+  position:relative;
+  left:1px;
+  top:2px;
+  width:250px;
+  height:55px;
+  color:black;
+  background-color:#bccd95;
+  font-size:40px;
+  text-align:right;
+}  
+
+.keys
+{
+  position:relative;
+  top:90px;
+  left:12%;
+}
+.button
+{
+  width:50px;
+  height:50px;
+  border:none;
+  border-radius:50px;
+  margin-left:17px;
+  cursor:pointer;
+  font-size:21px;
+  border-top:2px solid transparent;
+}
+.button.gray
+{
+  color:white;
+  background-color:#6f6f6f;
+  border-bottom:black 2px solid;
+  border-top:2px #6f6f6f solid;
+}
+
+.button.pink
+{
+  color:black;
+  background-color:#ff4561;
+  border-bottom:black 2px solid;
+}
+.button.black
+{
+  color:black;
+  background-color:303030;
+  border-bottom:black 2px solid;
+  border-top:2px 303030 solid;
+}
+.button.green
+{
+  color:black;
+  background-color:lawngreen;
+  border-bottom:black 2px solid;
+  border-top:2px FF9933 solid;
+}
+.gray:active
+{
+  border-top:black 2px solid;
+  border-bottom:2px #6f6f6f solid;
+}
+.pink:active
+{
+  border-top:black 2px solid;
+  border-bottom:#ff4561 2px solid;
+}
+.black:active
+{
+  border-top:black 2px solid;
+  border-bottom:#303030 2px solid;
+}
+.orange:active
+{
+  border-top:black 2px solid;
+  border-bottom:FF9933 2px solid;
+}
+p
+{
+  line-height:10px;
+}
